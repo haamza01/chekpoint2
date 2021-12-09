@@ -1,8 +1,8 @@
   
   import img1 from './image/images.png'
-  import img2 from '../public/image2.png'
   
-  function Checkpoint (){
+  
+  function Check (){
 
 
 return(
@@ -13,10 +13,10 @@ return(
         <br />
         <img src={img1} />
         <br />
-        <img src="../public/image2.png" />
+        <img src="/image2.png" alt='free' />
       </div>
        <video width={320} height={240} controls>
-         <source src="myVideo.mp4" type="video/mp4" />
+         <source src="myVideo.mp4" altfree type="video/mp4" />
        </video>
     </div>
 
@@ -26,4 +26,4 @@ return(
 
 
   }
-  export default Checkpoint
+  export default Check
